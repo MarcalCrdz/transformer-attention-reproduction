@@ -1,0 +1,26 @@
+# Ambiente Virtual (Dependências locais)
+venv/
+.venv/
+env/
+ENV/
+
+# Caches do Python (Arquivos compilados em tempo de execução)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDEs e Editores de Código
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema Operacional
+Thumbs.db
+.DS_Store
+
+# Arquivos Temporários ou Logs Locais de Desenvolvimento
+*.log
+metrics_output/temp_corpus.txt
